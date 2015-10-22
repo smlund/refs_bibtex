@@ -16,25 +16,36 @@ if any questions.
 
 To initialize the repository, 
 
-   % git clone git@github.com:smlund/project_name.git
-   % git pull  
+   % git clone  git@github.com:smlund/refs_bibtex.git
 
-This will create a directory, refs_bibtex where command was run with the
-refs.bib archive file.  Descend into that, make mods, then 
+This will create a directory, ./refs_bibtex where command was run with this 
+readme.txt instruction file and the refs.bib archive file.  
 
-To check in mods:
+To get the latest version descend into directory refs_bibtex and run:
 
-  % 
+  % git pull 
 
-Entries/names organized alphabetically by name under the following headings. 
+When modifying the repository (for those with edit privilege, please contact 
+me if you want to contribute and I will add you) 
+
+  ... edit refs.bib file etc 
+  % git add refs.bib 
+  % git commit -m "SML: added journal paper reference" 
+  % git push 
+
+
+The organization of refs.bib is as follows: Entries/names are organized 
+alphabetically by BibTeX name label under the headings listed below. 
 Please see refs.bib file for details. Added references should not conflict 
-with any previous ones to allow backward compatibility (reprocess old papers). 
+with any previous ones (i.e., must be unique labels for all new entries) 
+to allow backward compatibility (reprocess old papers, etc.). 
 Also please use no spaces in names (LaTeX works with but less 
-reliable accross platforms in ascii text files).  For year fields, please use 
+reliable across platforms in ASCII text files).  For year fields, please use 
 4 digits, eg. 2015 etc.  If there are degeneracies, please use, yeara yearb, 
 etc.  Examples, Davidson.2015a.prstab  etc. Please correct evident typos as 
-they become apparent.  But if you want an alternative format, make another 
-entry with appropriate content.     
+they become apparent.  BUT if you want an alternative format for an existing 
+reference (outside of typo corrections), make another entry with a unique 
+name and appropriately modified content.     
 
   Books @Book{}
     Names:  Author.B.year   
