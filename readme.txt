@@ -8,11 +8,13 @@ Michigan State University
 lund@frib.msu.edu
 517-908-7291
 
-References contained in refs.bib have been used in various 
-papers and documents that I have written many years.  Please add to the 
-file but keep the present format/naming pattern and make sure to check 
-that entries work with no typos before checking in.  Please contact me 
-if any questions.   
+References contained in the BibTeX database file refs.bib have been 
+used in various LaTeX papers and documents that I have written over 
+many years.  Please make use of refs.bib as you see fit and 
+add and improve refs.bib to make it more useful in the future. 
+Please keep the present format/naming pattern and make sure to check 
+that entries work with no typos before updating the git repository if 
+you want to contribute.  Please contact me with any questions.   
 
 To initialize the repository, 
 
@@ -39,9 +41,10 @@ alphabetically by BibTeX name label under the headings listed below.
 Please see refs.bib file for details. Added references should not conflict 
 with any previous ones (i.e., must be unique labels for all new entries) 
 to allow backward compatibility (reprocess old papers, etc.). 
-Also please use no spaces in names (LaTeX works with but less 
-reliable across platforms in ASCII text files).  For year fields, please use 
-4 digits, eg. 2015 etc.  If there are degeneracies, please use, yeara yearb, 
+Also please use no spaces in names (LaTeX works with spaces but it is less 
+reliable across platforms in ASCII text files when editing etc).  For 
+year fields, please use 4 digits, eg. 2015 etc.  If there 
+are label degeneracies, please use, yeara yearb, 
 etc.  Examples, Davidson.2015a.prstab  etc. Please correct evident typos as 
 they become apparent.  BUT if you want an alternative format for an existing 
 reference (outside of typo corrections), make another entry with a unique 
